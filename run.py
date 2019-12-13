@@ -4,6 +4,9 @@ from vnpy.trader.ui import MainWindow, create_qapp
 from vnpy.gateway.ctp import CtpGateway
 from vnpy.app.cta_strategy import CtaStrategyApp
 from vnpy.app.cta_backtester import CtaBacktesterApp
+import matplotlib
+
+matplotlib.use("Agg")
 
 def main():
     """Start VN Trader"""
