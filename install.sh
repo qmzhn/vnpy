@@ -17,7 +17,6 @@ function install-ta-lib()
     tar -xf ta-lib-0.4.0-src.tar.gz
     cd ta-lib
     ./configure --prefix=$prefix
-    make -j
     make install
     popd
 }
